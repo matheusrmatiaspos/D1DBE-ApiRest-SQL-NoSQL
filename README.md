@@ -45,8 +45,7 @@ $ npm install express
 ```
 Com o Express instalado é possível inicializar a aplicação através do comando:
 ```bash
-$ 
-node server.js
+$ node server.js
 ```
 
 Instale as dependências do [Sequilize](https://sequelize.org/) para PostgreSQL:
