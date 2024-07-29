@@ -78,7 +78,7 @@ PORT = {A Porta} //O padrão é 5432
 Crie um banco de dados com o mesmo nome da variável `POSTGRES_DATABASE`, o banco não se criará sozinho.
 
 ### 📤 Inserindo Alguns Dados
-Utilize o `curl` para realizar a insersão de alguns dados:
+Utilize o `curl` para realizar a inserção de alguns dados:
 ```bash
 # Autores
 $ curl -X POST -H 'Content-Type: application/json' -d '{"author_id": 1, "name": "George Orwell","birth_year": 1903,"nationality": "Inglês","books_written":9}' http://localhost:8080/autores
